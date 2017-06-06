@@ -1,0 +1,21 @@
+.header {
+  font-family: 'Playfair Display', serif;
+  background: rgb(17, 110, 28);
+  margin-left: -1rem;
+  margin-right: -1rem;
+  &-logo {
+    display: inline-block;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    background-color: white;
+
+    & img {
+    width: 180px;
+    border: solid grey;
+    border-width: 2px;
+    margin-bottom: -5px;
+
+  }
+
+  }
+}
