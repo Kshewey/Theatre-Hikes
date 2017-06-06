@@ -1,0 +1,89 @@
+.footer {
+  font-family: 'Playfair Display', serif;
+    background: rgb(17, 110, 28);
+    margin-left: -1rem;
+    margin-right: -1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    color: white;
+
+
+    &-divider {
+      margin: auto;
+      width: 75%;
+      border-top: 2px solid grey;
+
+    }
+
+&-contact {
+
+  font-size: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+    &-wrapper {
+      margin-left: 15%;
+      margin-right: 15%;
+      margin-bottom: 1.5rem;
+      margin-top: 1.5rem;
+    }
+  }
+
+&-social-media {
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+  margin-top: 1rem;
+
+
+  & img {
+    width: 60px;
+  }
+}
+
+&-affiliates {
+  text-align: center;
+  margin-bottom: 1rem;
+
+  &-small {
+    width: 100px;
+
+  }
+  &-large {
+    width: 150px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+  }
+
+}
+    &-nav {
+text-align: center;
+      & li {
+        list-style: none;
+        display: inline;
+        color: white;
+        font-size: 1rem;
+        margin-right: .5rem;
+        text-shadow: .2px .2px black;
+        font-weight: 100;
+
+        &:last-child {
+          margin-right: none;
+        }
+
+        & a:link {
+          color: white;
+          text-decoration: none;
+        }
+
+        & a:visited {
+          color: white;
+        }
+
+        & a:hover {
+          text-decoration: underline;
+        }
+
+    }
+    }
+}
