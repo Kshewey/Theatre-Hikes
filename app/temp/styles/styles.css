@@ -593,6 +593,7 @@ background: rgb(223, 232, 222);
 }
 
 .footer-contact {
+  text-shadow: .4px .4px black;
   font-size: 1rem;
   text-align: center;
   margin-top: 2rem;
@@ -610,6 +611,7 @@ background: rgb(223, 232, 222);
   color: white;
   font-weight: lighter;
   margin-top: 1rem;
+  text-shadow: .2px .2px black;
 }
 
 .footer-social-media img {
@@ -663,13 +665,12 @@ background: rgb(223, 232, 222);
 }
 
 .contact {
-background-color: rgb(46, 77, 124);
+background: rgb(223, 232, 222);
 padding-left: 15%;
 padding-right: 15%;
 }
 
 .contact-wrapper {
-  background: rgb(223, 232, 222);
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
@@ -805,4 +806,104 @@ padding-right: 15%;
   text-decoration: underline;
   color: rgb(46, 77, 124);
   text-shadow: .5px .5px black;
+}
+
+.season {
+  padding-bottom: 2rem;
+
+}
+
+.season-show {
+  text-align: center;
+}
+
+.season-show img {
+  width: 60%;
+  height: 60%;
+}
+
+.season a {
+  text-decoration: none;
+  color: black;
+}
+
+#season-around-img {
+    width: 55%;
+    height: 55%;
+    margin-bottom: 1rem;
+  }
+
+.show-page {
+  text-align: center;
+  padding-top: 1.5rem;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 1.5rem;
+
+}
+
+.show-page-title {
+  font-size: 2rem;
+  text-decoration: underline;
+  color: rgb(46, 77, 124);
+}
+
+.show-page-author {
+  margin-top: -3rem;
+  font-size: 1.3rem;
+}
+
+.show-page-dates {
+  font-size: 1rem;
+  margin-top: -1.8rem;
+  color: rgb(32, 102, 108);
+  text-shadow: .2px .2px grey;
+}
+
+.show-page-synopsis {
+  max-width: 45%;
+  text-align: center;
+  margin: auto;
+  margin-top: -1rem;
+}
+
+.show-page-synopsis-tag {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.show-page-tagline {
+  font-style: italic;
+}
+
+.show-page img {
+  width: 80%;
+}
+
+.show-page-location {
+  font-size: 1.8rem;
+  color: rgb(177, 111, 52);
+  text-shadow: .2px .2px black;
+}
+
+.show-page-location-tag {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.show-page-location-meet-details {
+  margin-top: -1.2rem;
+}
+
+.show-page-location-address {
+  font-size: 1rem;
+}
+
+.show-page-location-dates {
+  margin-top: -1.5rem;
+  color: rgb(32, 102, 108);
+}
+
+.show-page-directions {
+  margin-top: -1.2rem;
 }

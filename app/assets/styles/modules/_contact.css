@@ -1,10 +1,10 @@
 .contact {
-background-color: rgb(46, 77, 124);
+background: rgb(223, 232, 222);
 padding-left: 15%;
 padding-right: 15%;
 
 &-wrapper {
-  background: rgb(223, 232, 222);
+
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 

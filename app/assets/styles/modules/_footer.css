@@ -16,7 +16,7 @@
     }
 
 &-contact {
-
+  text-shadow: .4px .4px black;
   font-size: 1rem;
     text-align: center;
     margin-top: 2rem;
@@ -33,6 +33,7 @@
   color: white;
   font-weight: lighter;
   margin-top: 1rem;
+  text-shadow: .2px .2px black;
 
 
   & img {

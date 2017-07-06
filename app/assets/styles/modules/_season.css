@@ -1,0 +1,24 @@
+.season {
+  padding-bottom: 2rem;
+  &-show {
+
+    text-align: center;
+    & img {
+      width: 60%;
+      height: 60%;
+    }
+  }
+
+  & a {
+    text-decoration: none;
+    color: black;
+  }
+
+}
+
+
+  #season-around-img {
+    width: 55%;
+    height: 55%;
+    margin-bottom: 1rem;
+  }
