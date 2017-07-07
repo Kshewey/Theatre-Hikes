@@ -471,6 +471,10 @@ background: rgb(223, 232, 222);
   background: rgb(17, 110, 28);
   margin-left: -1rem;
   margin-right: -1rem;
+
+
+    
+
 }
 
 .header-logo {
@@ -493,6 +497,7 @@ background: rgb(223, 232, 222);
   padding-bottom: 1.5rem;
   height: 1rem;
   border-bottom: .5px grey solid;
+
   }
 
 .primary-nav ul {
@@ -565,6 +570,54 @@ background: rgb(223, 232, 222);
   background-color: rgb(46, 77, 124);
   text-align: center;
   color: white;
+  font-weight: 200;
+  text-shadow: .2 .2 black solid;
+}
+
+.main-content-mailing h2 {
+  text-decoration: underline;
+  cursor: pointer;
+  cursor: hand;
+  color: #F7931E;
+  text-shadow: .2 .2 white solid;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 99; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* Black w/ opacity */
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.modal .close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.modal .close:hover,
+.modal .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .slider-img-size {
@@ -593,6 +646,7 @@ background: rgb(223, 232, 222);
 }
 
 .footer-contact {
+  text-shadow: .4px .4px black;
   font-size: 1rem;
   text-align: center;
   margin-top: 2rem;
@@ -610,6 +664,7 @@ background: rgb(223, 232, 222);
   color: white;
   font-weight: lighter;
   margin-top: 1rem;
+  text-shadow: .2px .2px black;
 }
 
 .footer-social-media img {
@@ -663,13 +718,12 @@ background: rgb(223, 232, 222);
 }
 
 .contact {
-background-color: rgb(46, 77, 124);
+background: rgb(223, 232, 222);
 padding-left: 15%;
 padding-right: 15%;
 }
 
 .contact-wrapper {
-  background: rgb(223, 232, 222);
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
@@ -805,4 +859,104 @@ padding-right: 15%;
   text-decoration: underline;
   color: rgb(46, 77, 124);
   text-shadow: .5px .5px black;
+}
+
+.season {
+  padding-bottom: 2rem;
+
+}
+
+.season-show {
+  text-align: center;
+}
+
+.season-show img {
+  width: 60%;
+  height: 60%;
+}
+
+.season a {
+  text-decoration: none;
+  color: black;
+}
+
+#season-around-img {
+    width: 55%;
+    height: 55%;
+    margin-bottom: 1rem;
+  }
+
+.show-page {
+  text-align: center;
+  padding-top: 1.5rem;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 1.5rem;
+
+}
+
+.show-page-title {
+  font-size: 2rem;
+  text-decoration: underline;
+  color: rgb(46, 77, 124);
+}
+
+.show-page-author {
+  margin-top: -3rem;
+  font-size: 1.3rem;
+}
+
+.show-page-dates {
+  font-size: 1rem;
+  margin-top: -1.8rem;
+  color: rgb(32, 102, 108);
+  text-shadow: .2px .2px grey;
+}
+
+.show-page-synopsis {
+  max-width: 45%;
+  text-align: center;
+  margin: auto;
+  margin-top: -1rem;
+}
+
+.show-page-synopsis-tag {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.show-page-tagline {
+  font-style: italic;
+}
+
+.show-page img {
+  width: 80%;
+}
+
+.show-page-location {
+  font-size: 1.8rem;
+  color: rgb(177, 111, 52);
+  text-shadow: .2px .2px black;
+}
+
+.show-page-location-tag {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.show-page-location-meet-details {
+  margin-top: -1.2rem;
+}
+
+.show-page-location-address {
+  font-size: 1rem;
+}
+
+.show-page-location-dates {
+  margin-top: -1.5rem;
+  color: rgb(32, 102, 108);
+}
+
+.show-page-directions {
+  margin-top: -1.2rem;
 }
