@@ -1,13 +1,21 @@
 .primary-nav {
+
   text-align: right;
   padding-right: 1rem;
   padding-bottom: 1.5rem;
   height: 1rem;
   border-bottom: .5px grey solid;
 
+  &-wrapper {
+    border: 5px red solid;
+    margin-left: 220px;
+    position: relative;
+  }
+
 
   & ul {
-margin-top: -1.8rem;
+    margin-top: -1.8rem;
+    position: relative;
 
   }
 
@@ -19,9 +27,7 @@ margin-top: -1.8rem;
       margin-right: 1.8rem;
       text-shadow: .2px .2px black;
 
-      &:last-child {
-        margin-right: none;
-      }
+
 
       & a:link {
         color: white;
@@ -37,5 +43,111 @@ margin-top: -1.8rem;
       }
 
   }
+  & ul li:hover ul {
+    display: block;
 
+
+
+  }
+
+  & ul ul {
+    position: absolute;
+    background-color: rgb(46, 77, 124);
+    z-index: 98;
+
+
+
+
+
+    & li {
+      display: block;
+      font-size: 1rem;
+      text-align: left;
+
+
+    }
+  }
+  }
+
+
+
+
+  .drop-nav {
+    background: rgb(46, 77, 124);
+    z-index: 98;
+    list-style: none;
+    font-size: 1rem;
+    width: 15rem;
+    margin: none;
+    padding: none;
+  }
+  .main-nav {
+    float: right;
+    margin-right: 1rem;
+    margin-top: 6.2rem;
+
+
+
+
+  }
+    .main-nav > li {
+      float: left;
+      list-style: none;
+    }
+    .main-nav li:first-child {
+      border-left: none;
+    }
+    .main-nav a {
+      color: #fff;
+      display: block;
+      padding: 10px 20px;
+      text-decoration: none;
+      font-size: 1.5rem;
+    }
+
+      .main-nav a:hover {
+        text-decoration: underline;
+      }
+  .dropdown,
+  .flyout {
+    position: relative;
+  }
+  .dropdown:after {
+
+    font-size: .5em;
+    display: block;
+    position: absolute;
+    top: 38%;
+    right: 12%;
+  }
+  .drop-nav,
+  .flyout-nav {
+    position: absolute;
+    display: none;
+  }
+  .drop-nav li {
+    margin: none;
+    padding: none;
+
+  }
+    .drop-nav li a {
+        font-size: 1rem;
+        margin-left:  -1.5rem;
+        padding: none;
+    }
+
+    .drop-nav li a:hover {
+      text-decoration: underline;
+    }
+  .dropdown:hover > .drop-nav,
+  .flyout:hover > .flyout-nav {
+    display: block;
+  }
+  .flyout-nav {
+    left: 100%;
+    top: 0;
+  }
+  .flyout:hover a,
+  .flyout-nav {
+    background: #395066;
   }

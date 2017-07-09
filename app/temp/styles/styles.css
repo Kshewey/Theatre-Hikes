@@ -471,9 +471,10 @@ background: rgb(223, 232, 222);
   background: rgb(17, 110, 28);
   margin-left: -1rem;
   margin-right: -1rem;
+  margin-bottom: 3rem;
 
 
-    
+
 
 }
 
@@ -481,6 +482,7 @@ background: rgb(223, 232, 222);
   display: inline-block;
   margin-left: 2rem;
   margin-top: 1.5rem;
+  margin-bottom: 1rem;
   background-color: white;
 }
 
@@ -492,16 +494,23 @@ background: rgb(223, 232, 222);
 }
 
 .primary-nav {
+
   text-align: right;
   padding-right: 1rem;
   padding-bottom: 1.5rem;
   height: 1rem;
   border-bottom: .5px grey solid;
-
   }
+
+.primary-nav-wrapper {
+  border: 5px red solid;
+  margin-left: 220px;
+  position: relative;
+}
 
 .primary-nav ul {
   margin-top: -1.8rem;
+  position: relative;
 }
 
 .primary-nav li {
@@ -511,10 +520,6 @@ background: rgb(223, 232, 222);
   font-size: 1.5rem;
   margin-right: 1.8rem;
   text-shadow: .2px .2px black;
-}
-
-.primary-nav li:last-child {
-  margin-right: none;
 }
 
 .primary-nav li a:link {
@@ -529,6 +534,114 @@ background: rgb(223, 232, 222);
 .primary-nav li a:hover {
   text-decoration: underline;
 }
+
+.primary-nav ul li:hover ul {
+  display: block;
+}
+
+.primary-nav ul ul {
+  position: absolute;
+  background-color: rgb(46, 77, 124);
+  z-index: 98;
+}
+
+.primary-nav ul ul li {
+  display: block;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.drop-nav {
+    background: rgb(46, 77, 124);
+    z-index: 98;
+    list-style: none;
+    font-size: 1rem;
+    width: 15rem;
+    margin: none;
+    padding: none;
+  }
+
+.main-nav {
+    float: right;
+    margin-right: 1rem;
+    margin-top: 6.2rem;
+
+
+
+
+  }
+
+.main-nav > li {
+      float: left;
+      list-style: none;
+    }
+
+.main-nav li:first-child {
+      border-left: none;
+    }
+
+.main-nav a {
+      color: #fff;
+      display: block;
+      padding: 10px 20px;
+      text-decoration: none;
+      font-size: 1.5rem;
+    }
+
+.main-nav a:hover {
+        text-decoration: underline;
+      }
+
+.dropdown,
+  .flyout {
+    position: relative;
+  }
+
+.dropdown:after {
+
+    font-size: .5em;
+    display: block;
+    position: absolute;
+    top: 38%;
+    right: 12%;
+  }
+
+.drop-nav,
+  .flyout-nav {
+    position: absolute;
+    display: none;
+  }
+
+.drop-nav li {
+    margin: none;
+    padding: none;
+
+  }
+
+.drop-nav li a {
+        font-size: 1rem;
+        margin-left:  -1.5rem;
+        padding: none;
+    }
+
+.drop-nav li a:hover {
+      text-decoration: underline;
+    }
+
+.dropdown:hover > .drop-nav,
+  .flyout:hover > .flyout-nav {
+    display: block;
+  }
+
+.flyout-nav {
+    left: 100%;
+    top: 0;
+  }
+
+.flyout:hover a,
+  .flyout-nav {
+    background: #395066;
+  }
 
 .main-content {
 
@@ -582,6 +695,13 @@ background: rgb(223, 232, 222);
   text-shadow: .2 .2 white solid;
 }
 
+.main-content-modal-form {
+  width: 175px;
+  text-align: center;
+  color: white;
+  margin: auto;
+}
+
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -599,11 +719,22 @@ background: rgb(223, 232, 222);
 /* Black w/ opacity */
 
 .modal-content {
-  background-color: #fefefe;
+  background-color:  rgb(46, 77, 124);
   margin: auto;
   padding: 20px;
-  border: 1px solid #888;
   width: 80%;
+}
+
+.modal-content-heading {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-left: 3rem;
+  color: white;
+}
+
+.modal .contact-fieldset {
+  text-align: center;
+  border: none;
 }
 
 .modal .close {
