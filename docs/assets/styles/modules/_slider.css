@@ -1,0 +1,7 @@
+.slider-img-size {
+  margin-left: -2rem;
+  margin-right: -2rem;
+  & img {
+    max-width: 100%;
+  }
+}
