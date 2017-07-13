@@ -1,0 +1,14 @@
+.history {
+  &-productions {
+    &-wrapper {
+      width: 340px;
+      margin: auto;
+
+}
+    & h4 {
+      color: rgb(177, 111, 52);
+      font-size: 1.5rem;
+      text-align: center;
+    }
+  }
+}

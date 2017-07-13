@@ -1022,7 +1022,6 @@ padding-right: 15%;
   padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 1.5rem;
-
 }
 
 .show-page-title {
@@ -1089,4 +1088,78 @@ padding-right: 15%;
 
 .show-page-directions {
   margin-top: -1.2rem;
+}
+
+.show-page-castlist {
+  font-size: 1.5rem;
+}
+
+.cast {
+  margin-bottom: 2rem;
+
+
+
+}
+
+.cast-member {
+  font-size: 1.8rem;
+}
+
+.cast-team-header {
+  color: rgb(177, 111, 52);
+  text-shadow: .5px .5px black;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.cast-table table {
+  margin: 0 auto;
+}
+
+.cast-table-title {
+  text-align: left;
+  font-size: 1.3rem;
+  padding-right: 5rem
+}
+
+.cast-table tr td {
+  padding-bottom: .6rem;
+}
+
+.cast-bios {
+  line-height: 1.6;
+  margin: auto;
+}
+
+.cast-bios p {
+  margin-bottom: 1rem;
+}
+
+.cast-bios img {
+  margin-right: 15px;
+  width: 175px;
+  float: left;
+}
+
+.cast-bios img::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.cast-bios-wrapper {
+  height: 100%;
+  max-width: 950px;
+  margin: auto;
+}
+
+.history-productions-wrapper {
+  width: 340px;
+  margin: auto;
+}
+
+.history-productions h4 {
+  color: rgb(177, 111, 52);
+  font-size: 1.5rem;
+  text-align: center;
 }

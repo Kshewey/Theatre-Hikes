@@ -1,0 +1,58 @@
+.cast {
+  margin-bottom: 2rem;
+&-member {
+  font-size: 1.8rem;
+}
+  &-team-header {
+    color: rgb(177, 111, 52);
+    text-shadow: .5px .5px black;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  &-table {
+    & table {
+    margin: 0 auto;
+}
+    &-title {
+        text-align: left;
+        font-size: 1.3rem;
+        padding-right: 5rem
+    }
+    & tr {
+      & td {
+        padding-bottom: .6rem;
+      }
+    }
+  }
+
+
+  &-bios {
+
+    line-height: 1.6;
+
+    margin: auto;
+
+    & p {
+      margin-bottom: 1rem;
+    }
+    & img {
+      margin-right: 15px;
+      width: 175px;
+      float: left;
+
+      &::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+    }
+    &-wrapper {
+        height: 100%;
+        max-width: 950px;
+        margin: auto;
+    }
+  }
+
+
+
+}
