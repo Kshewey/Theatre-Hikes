@@ -722,6 +722,7 @@ background: rgb(223, 232, 222);
   margin: auto;
   padding: 20px;
   width: 80%;
+  margin-bottom: 10rem;
 }
 
 .modal-content-heading {
@@ -731,14 +732,10 @@ background: rgb(223, 232, 222);
   color: white;
 }
 
-.modal .contact-fieldset {
-  text-align: center;
-  border: none;
-}
-
 .modal .close {
   color: #aaaaaa;
   float: right;
+  margin-right: 1rem;
   font-size: 28px;
   font-weight: bold;
 }
@@ -1131,26 +1128,36 @@ padding-right: 15%;
   margin: auto;
 }
 
+.cast-bios-row-img {
+  float: left;
+  width: 190px;
+}
+
+.cast-bios-row-biotext {
+  float: left;
+  width: 760px;
+  margin-top: -20px;
+  margin-bottom: -30px;
+}
+
 .cast-bios p {
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 
 .cast-bios img {
-  margin-right: 15px;
   width: 175px;
-  float: left;
-}
-
-.cast-bios img::after {
-  content: "";
-  clear: both;
-  display: table;
 }
 
 .cast-bios-wrapper {
   height: 100%;
   max-width: 950px;
   margin: auto;
+}
+
+.cast-bios-wrapper::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .history-productions-wrapper {

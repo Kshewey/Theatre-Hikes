@@ -27,29 +27,37 @@
 
 
   &-bios {
-
     line-height: 1.6;
-
     margin: auto;
 
+&-row{
+  &-img {
+    float: left;
+    width: 190px;
+  }
+  &-biotext {
+    float: left;
+    width: 760px;
+    margin-top: -20px;
+    margin-bottom: -30px;
+  }
+}
     & p {
-      margin-bottom: 1rem;
+      margin-bottom: 3rem;
     }
-    & img {
-      margin-right: 15px;
-      width: 175px;
-      float: left;
 
-      &::after {
-        content: "";
-        clear: both;
-        display: table;
-      }
+    & img {
+      width: 175px;
     }
     &-wrapper {
         height: 100%;
         max-width: 950px;
         margin: auto;
+        &::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
     }
   }
 
