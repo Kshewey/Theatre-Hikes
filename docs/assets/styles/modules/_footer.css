@@ -46,14 +46,18 @@
   margin-bottom: 1rem;
 
   &-small {
-    width: 100px;
-
+    width: 60px;
+    @media screen and (min-width:1008px) {
+    width: 90px;
+  }
   }
   &-large {
-    width: 150px;
+width: 100px;
+      @media screen and (min-width:1008px) {
+    width: 140px;
     margin-left: 15px;
     margin-right: 15px;
-
+  }
   }
 
 }

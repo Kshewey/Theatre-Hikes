@@ -24,7 +24,10 @@
   }
 
   &-synopsis {
+    max-width: 90%;
+      @media screen and (min-width:950px) {
     max-width: 45%;
+        }
     text-align: center;
     margin: auto;
     margin-top: -1rem;

@@ -10,12 +10,13 @@
 }
 
 .row-6 {
+float: none;
 
-
+  @media screen and (min-width:950px) {
 
   float: left;
   width: 50%;
-
+}
 
 
 }
@@ -32,11 +33,11 @@
 }
 
 .row-3 {
-
-
+float: none;
+  @media screen and (min-width:950px) {
   float: left;
   width: 25%;
-
+}
 
 
 }

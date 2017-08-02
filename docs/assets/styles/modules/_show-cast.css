@@ -10,6 +10,11 @@
     font-size: 1.5rem;
   }
   &-table {
+
+    @media (max-width:950px) {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
     & table {
     margin: 0 auto;
 }
@@ -34,12 +39,24 @@
   &-img {
     float: left;
     width: 190px;
+    @media (max-width:950px) {
+      float: none;
+      margin: auto;
+    }
+
   }
   &-biotext {
     float: left;
-    width: 760px;
+    max-width: 760px;
     margin-top: -20px;
     margin-bottom: -30px;
+
+    @media (max-width:950px) {
+      padding-left: 15px;
+      padding-right: 15px;
+      float: none;
+
+    }
   }
 }
     & p {
@@ -53,6 +70,11 @@
         height: 100%;
         max-width: 950px;
         margin: auto;
+        @media (max-width:950px) {
+          padding-left: 15px;
+          padding-right: 15px;
+        }
+
         &::after {
           content: "";
           clear: both;
