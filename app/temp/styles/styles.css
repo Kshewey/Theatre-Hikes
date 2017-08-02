@@ -1260,6 +1260,13 @@ float: none;
   font-size: 1.8rem;
 }
 
+@media (max-width:950px) {
+
+  .cast-member {
+    font-size: 1.2rem;
+  }
+}
+
 .cast-team-header {
   color: rgb(177, 111, 52);
   text-shadow: .5px .5px black;
@@ -1272,6 +1279,7 @@ float: none;
   .cast-table {
     padding-left: 15px;
     padding-right: 15px;
+    font-size: .8rem;
   }
 }
 
@@ -1281,8 +1289,15 @@ float: none;
 
 .cast-table-title {
   text-align: left;
-  font-size: 1.3rem;
-  padding-right: 5rem
+  font-size: 1.4rem;
+  padding-right: 5rem;
+}
+
+@media (max-width:950px) {
+
+  .cast-table-title {
+    font-size: 1rem;
+  }
 }
 
 .cast-table tr td {
@@ -1320,6 +1335,7 @@ float: none;
     padding-left: 15px;
     padding-right: 15px;
     float: none;
+    font-size: .9rem;
   }
 }
 

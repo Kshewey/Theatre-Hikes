@@ -2,6 +2,9 @@
   margin-bottom: 2rem;
 &-member {
   font-size: 1.8rem;
+    @media (max-width:950px) {
+      font-size: 1.2rem;
+    }
 }
   &-team-header {
     color: rgb(177, 111, 52);
@@ -14,14 +17,19 @@
     @media (max-width:950px) {
       padding-left: 15px;
       padding-right: 15px;
+      font-size: .8rem;
     }
     & table {
     margin: 0 auto;
 }
     &-title {
         text-align: left;
-        font-size: 1.3rem;
-        padding-right: 5rem
+        font-size: 1.4rem;
+        padding-right: 5rem;
+          @media (max-width:950px) {
+            font-size: 1rem;
+
+          }
     }
     & tr {
       & td {
@@ -55,6 +63,7 @@
       padding-left: 15px;
       padding-right: 15px;
       float: none;
+      font-size: .9rem;
 
     }
   }
