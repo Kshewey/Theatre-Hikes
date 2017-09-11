@@ -12,7 +12,7 @@ padding-right: 15%;
   &-profile {
     display: block;
     text-align: center;
-    
+
     @media screen and (min-width:950px) {
     display: inline;
   }
@@ -25,4 +25,10 @@ padding-right: 15%;
     }
     }
   }
+}
+
+.contact-profile-center-image {
+    display: block;
+    margin: auto;
+
 }

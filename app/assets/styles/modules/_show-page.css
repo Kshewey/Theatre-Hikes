@@ -44,6 +44,8 @@
 
   & img {
   width: 80%;
+  max-height: 650px;
+  max-width:  650px;
   }
 
 

@@ -1000,6 +1000,12 @@ padding-right: 15%;
   }
 }
 
+.contact-profile-center-image {
+    display: block;
+    margin: auto;
+
+}
+
 .about-directors {
   text-align: center;
 }
@@ -1150,7 +1156,9 @@ float: none;
 
 .season-show img {
   width: 60%;
+  max-width: 530px;
   height: 60%;
+  max-height: 450px;
 }
 
 .season a {
@@ -1215,6 +1223,8 @@ float: none;
 
 .show-page img {
   width: 80%;
+  max-height: 650px;
+  max-width:  650px;
 }
 
 .show-page-location {

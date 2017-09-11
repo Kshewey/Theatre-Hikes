@@ -5,7 +5,9 @@
     text-align: center;
     & img {
       width: 60%;
+      max-width: 530px;
       height: 60%;
+      max-height: 450px;
     }
   }
 
